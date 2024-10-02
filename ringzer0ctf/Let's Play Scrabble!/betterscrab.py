@@ -3,7 +3,7 @@
 import json
 import string
 
-with open('/home/gigachad/Documents/GitHub/CTF-Writeups/ringzer0ctf/words_dictionary.json', 'r') as file:
+with open('words_dictionary.json', 'r') as file:
     # Load the JSON content into a dictionary
     wordlist = json.load(file)
 
